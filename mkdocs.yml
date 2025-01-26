@@ -5,6 +5,10 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate 
+  
+  icon:
+    admonition:
+      <type>: <icon>
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -13,6 +17,10 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.superfences
+
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
 
 
