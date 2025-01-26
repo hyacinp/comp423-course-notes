@@ -6,9 +6,6 @@ theme:
     - content.code.select
     - content.code.annotate 
   
-  icon:
-    admonition:
-      <type>: <icon>
 
 markdown_extensions:
   - pymdownx.highlight:
