@@ -29,8 +29,8 @@ In order to move forward with this tutorial you must have the following complete
  command and switch into your directory by using the ```cd``` command. 
 
 ```
-mkdir go-project
-cd go-project
+mkdir go-tutorial-project
+cd go-tutorial-project
 ```
 3) Now, initialize a new git repository for your project:
 
@@ -101,7 +101,7 @@ git push --set-upstream origin main
       "extensions": ["golang.go"]
     }
   },
-  "postCreateCommand": "go mod init comp423-go-tutorial"
+  "postCreateCommand": "go mod init go-tutorial-project"
 }
 ```
 
