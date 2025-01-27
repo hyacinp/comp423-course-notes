@@ -169,14 +169,14 @@ Let's breakdown what everything means from the above step:
 
 (A) In your VSCode terminal, run
     ```
-    go run main.go
+    go run first-go-prog.go
     ```
 
 or
 
 (B) Build an executable by entering the following commands:
 ```
-go build -o <meaningful-output-name> main.go
+go build -o <meaningful-output-name> first-go-prog.go
 ./<meaningful-output-name>
 ```
 
