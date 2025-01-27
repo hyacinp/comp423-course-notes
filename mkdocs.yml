@@ -4,7 +4,11 @@ theme:
   features:
     - content.code.copy
     - content.code.select
-    - content.code.annotate 
+    - content.code.annotate
+
+  icon:
+    admonition:
+      <type>: material/alert-circle
   
 
 markdown_extensions:
